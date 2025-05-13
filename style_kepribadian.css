@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #e8f4f8; /* Warna latar belakang sedikit berbeda */
+    color: #333;
+}
+
+.container {
+    max-width: 700px; /* Sedikit lebih kecil mungkin cocok */
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0b5394; /* Warna biru tua */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section, .result-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #bce8f1; /* Border biru muda */
+    border-radius: 5px;
+    background-color: #f9feff; /* Background section sedikit biru */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 22px); /* Sesuaikan padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3c78d8; /* Biru lebih cerah */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a5296; /* Biru lebih gelap saat hover */
+}
+
+.result-section h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #3c78d8;
+    padding-bottom: 10px;
+}
+
+#dataWeton {
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #eef7ff;
+    border-left: 4px solid #3c78d8;
+    border-radius: 4px;
+}
+
+#deskripsiKepribadian { /* Ini mungkin tidak terpakai lagi, diganti #analisisDetail */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: #d9534f; /* Merah */
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Tambahan/Modifikasi untuk input baru dan analisis detail */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Jarak antar radio button */
+    margin-top: 5px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-label {
+    font-weight: normal; /* Agar tidak bold seperti label utama */
+    cursor: pointer;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+#analisisDetail h3 {
+    color: #1c4e80; /* Warna sub-judul analisis */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a5d8ff;
+    padding-bottom: 5px;
+}
+
+#analisisDetail ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#analisisDetail li {
+    margin-bottom: 5px;
+}
+
+#analisisDetail p {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #0b5394;
+}
